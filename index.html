@@ -1,19 +1,153 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css" />
-    </head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-        <script>
-            new WOW().init();
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css" />
     
-        <div>Hello, World!</div>
-    </body>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <!---------------------- NavBar ---------------------------->
+    <div id="myNavbar" class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a href="#" class="navbar-brand">Media</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="myId"><a href="#header">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- Header --------------------------->
+    <div id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <h2>CHECK THIS OUT</h2>
+                    <p>
+                        You should really check this out. It's really cool. You definitely won't regret it.
+                    </p>
+                    <button class="btn btn-lg btn-danger">Take Red Pill</button>
+                    <button class="btn btn-lg btn-primary">Take Blue Pill</button>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img src="https://media.mnn.com/assets/images/2017/01/Sloth-Hanging-Tree-Branch.jpg.638x0_q80_crop-smart.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- Services --------------------------->
+    <div id="services" class="services">
+        <div class="container">
+
+            <h2>Look at these cool services</h2>
+            <p>We do a lot of really cool stuff</p>
+
+            <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                    <h4>Web Design</h4>
+                    <p>We can make an awesome website for your company</p>
+                </div>
+
+                <div class="col-md-3 col-lg-3">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <h4>Phone Apps</h4>
+                    <p>We can make an awesome app for your company</p>
+                </div>
+
+                <div class="col-md-3 col-lg-3">
+                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    <h4>Graphic Design</h4>
+                    <p>We can make an awesome photo for your company</p>
+                </div>
+
+                <div class="col-md-3 col-lg-3">
+                    <i class="fa fa-building" aria-hidden="true"></i>
+                    <h4>Consulting</h4>
+                    <p>We will come to you!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="team" class="team wow flipInY">
+        <div class="container">
+            <div class="row">
+                <h2>Meet the Team</h2>
+                <p>They are awesome</p>
+                
+                <div class="col-md-3 col-lg-3">
+                    <img class="img-circle" src="https://media.licdn.com/dms/image/C4D03AQHsUpdKSbSRIg/profile-displayphoto-shrink_800_800/0?e=1545868800&v=beta&t=Zu_818JmDR56Pot_CXeVu-9jmJYDBSbS_i_AxHnbJeY" />
+                    
+                    <h4>Alyssa Lui</h4>
+                    <strong>CEO</strong>
+                    <p>Alyssa keeps things running at our company</p>
+                    
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                
+                <div class="col-md-3 col-lg-3">
+                    <img class="img-circle" src="https://media.licdn.com/dms/image/C4D03AQHsUpdKSbSRIg/profile-displayphoto-shrink_800_800/0?e=1545868800&v=beta&t=Zu_818JmDR56Pot_CXeVu-9jmJYDBSbS_i_AxHnbJeY" />
+                    
+                    <h4>Alyssa Lui</h4>
+                    <strong>CEO</strong>
+                    <p>Alyssa keeps things running at our company</p>
+                    
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                
+                <div class="col-md-3 col-lg-3">
+                    <img class="img-circle" src="https://media.licdn.com/dms/image/C4D03AQHsUpdKSbSRIg/profile-displayphoto-shrink_800_800/0?e=1545868800&v=beta&t=Zu_818JmDR56Pot_CXeVu-9jmJYDBSbS_i_AxHnbJeY" />
+                    
+                    <h4>Alyssa Lui</h4>
+                    <strong>CEO</strong>
+                    <p>Alyssa keeps things running at our company</p>
+                    
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                
+                <div class="col-md-3 col-lg-3">
+                    <img class="img-circle" src="https://media.licdn.com/dms/image/C4D03AQHsUpdKSbSRIg/profile-displayphoto-shrink_800_800/0?e=1545868800&v=beta&t=Zu_818JmDR56Pot_CXeVu-9jmJYDBSbS_i_AxHnbJeY" />
+                    
+                    <h4>Alyssa Lui</h4>
+                    <strong>CEO</strong>
+                    <p>Alyssa keeps things running at our company</p>
+                    
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
